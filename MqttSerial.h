@@ -3,6 +3,7 @@
 #include "Arduino.h"	
 
 class MqttSerial {
+	
 private:
    void printToSerialPort(int command, String value);
    int readtopicname = 1;
